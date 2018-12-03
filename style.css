@@ -1,15 +1,77 @@
 /** Layout**/
 
-body {
-    color: grey    
+* {
+    box-sizing: border-box;
+    text-align: center;
+    background-color: grey;
+    margin: 4px 50px 20px 50px; 
 }
 
-#outersection {
-    background-color: grey;
-    overflow: auto;
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: '#777';
+    background: '#777';
+    width: '960px';
+    font-size: '18px';
 }
+
 
 #header {
-    width: 33.33%
+ 
+    background: '#ebebeb';
+    background-color: white;
+    padding: 40px;
+    margin-bottom: 10px;
 }
 
+#nav {
+    background: '#ebebeb';
+    background-color: white;
+    padding: 40px;
+    margin-bottom: 17px;
+}
+
+#left {
+    background-color: white;
+    float: left;
+    width: 53%;
+    padding: 30px;
+    
+}
+
+#h2 {
+    background-color: white;
+    padding: 13px;    
+    margin: 27px 0px 0px 0px;
+}
+
+#p {
+    background-color: white; 
+    padding: 15px;
+    margin: 10px 0px 0px 0px;
+}
+
+#article {
+    background-color: grey;
+    margin: 27px -20px -20px -20px;
+    padding: 15px;
+}
+
+#right {
+    background-color: white;
+    float: right;
+    width: 30%;
+    
+        
+}
+
+#aside {
+    background-color: white;
+}
+
+#footer{
+    padding: 20px;
+    clear: both;
+    background-color: white;
+}
+ 
