@@ -1,0 +1,15 @@
+/** Layout**/
+
+body {
+    color: grey    
+}
+
+#outersection {
+    background-color: grey;
+    overflow: auto;
+}
+
+#header {
+    width: 33.33%
+}
+
