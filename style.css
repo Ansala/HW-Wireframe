@@ -60,7 +60,8 @@ body {
 #right {
     background-color: white;
     float: right;
-    width: 30%;
+    width: 380px;
+    padding:30px;
     
         
 }
@@ -74,4 +75,10 @@ body {
     clear: both;
     background-color: white;
 }
- 
+
+/* clearfix is applied to the parent container to 'fix' the flow of the page */
+.clearfix:outer {
+    content: "";
+    display: block;
+    clear: both;
+}
